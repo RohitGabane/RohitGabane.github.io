@@ -15,24 +15,24 @@
     hideDistantElements: false,
     scrollProperty: 'scroll'
   });
-	document.getElementById("downloadButton").addEventListener("click", function() {
-    // Replace 'https://example.com/path_to_your_pdf.pdf' with the URL of your hosted PDF file
-    var pdfUrl = 'https://drive.google.com/file/d/1P3SZz0lA_QpurPSw06_DfQsUeKti3f0s/view?usp=sharing';
-    // Set the file name for the downloaded PDF
-    var fileName = 'Sagar Verma Resume.pdf';
-    // Create a link element
-    var link = document.createElement('a');
-    // Set the href attribute to the PDF file's URL
-    link.href = pdfUrl;
-    // Set the download attribute to the file name you want the PDF to be downloaded as
-    link.download = fileName;
-    // Append the link to the body
-    document.body.appendChild(link);
-    // Programmatically click the link to trigger the download
-    link.click();
-    // Clean up: remove the link from the DOM
-    document.body.removeChild(link);
-});
+// 	document.getElementById("downloadButton").addEventListener("click", function() {
+//     // Replace 'https://example.com/path_to_your_pdf.pdf' with the URL of your hosted PDF file
+//     var pdfUrl = 'https://drive.google.com/file/d/1P3SZz0lA_QpurPSw06_DfQsUeKti3f0s/view?usp=sharing';
+//     // Set the file name for the downloaded PDF
+//     var fileName = 'Sagar Verma Resume.pdf';
+//     // Create a link element
+//     var link = document.createElement('a');
+//     // Set the href attribute to the PDF file's URL
+//     link.href = pdfUrl;
+//     // Set the download attribute to the file name you want the PDF to be downloaded as
+//     link.download = fileName;
+//     // Append the link to the body
+//     document.body.appendChild(link);
+//     // Programmatically click the link to trigger the download
+//     link.click();
+//     // Clean up: remove the link from the DOM
+//     document.body.removeChild(link);
+// });
 
 
 	var fullHeight = function() {
